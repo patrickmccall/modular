@@ -1,0 +1,4 @@
+﻿/*Outsmart the normal box model sizing rules!*/
+* {
+  box-sizing: border-box;
+}
