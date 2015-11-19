@@ -2,3 +2,57 @@
 * {
   box-sizing: border-box;
 }
+
+body{
+    font-family: Verdana, Geneva, sans-serif
+}
+a {
+    text-decoration:none;
+    color:black;
+}
+.product{
+    margin:1rem;
+    padding:1rem;
+    border:2px solid black;
+
+}
+
+.product-picture{
+
+}
+
+.fa {
+    float:left;
+}
+.fa-star{
+    color:yellow;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+.review-count{
+    padding-left:.5rem;
+    padding-right:.5rem;
+    padding-bottom:.5rem;
+    font-size:.875rem;
+}
+
+.product-title{
+    clear:both;
+    font-size:1.25rem;
+    font-weight:bold;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+}
+.price{
+    font-weight:200;
+    font-size:.875rem;
+}
+.product-price-sale{
+    color:red;
+}
+
+.product-price-alt{
+    text-decoration: line-through
+}
